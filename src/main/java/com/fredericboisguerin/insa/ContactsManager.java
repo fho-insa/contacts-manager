@@ -26,7 +26,6 @@ public class ContactsManager {
 
         Contact NouveauContact = new Contact(name,email,phoneNumber);
         ContactList.add(NouveauContact);
-
     }
 
     public void printAllContacts() {
