@@ -8,7 +8,6 @@ public class ContactsManager {
 
     ArrayList <Contact> ContactList = new ArrayList();
 
-
     public void addContact(String name, String email, String phoneNumber) throws InvalidContactNameException, InvalidEmailException{
 
         if(name == null || name == "")
@@ -23,7 +22,6 @@ public class ContactsManager {
 
                 throw new InvalidEmailException("INVAlIDE ENTER MAIL");
             }
-
         }
 
         Contact NouveauContact = new Contact(name,email,phoneNumber);
